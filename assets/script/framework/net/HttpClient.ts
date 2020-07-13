@@ -117,7 +117,7 @@ class HttpClient {
             return;
         }
 
-        let xhr = new XMLHttpRequest();
+        let xhr = cc.loader.getXMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
                 if ((xhr.status >= 200 && xhr.status < 300)) {

@@ -17,7 +17,6 @@ window.parseRemoteUrl = function (url) {
 
     let data = { url: null, path: null, fileName: null };
     data.url = url;
-    //摘取文件
     let fileName = data.url.slice(data.url.lastIndexOf("/") + 1);
     let fileDir = data.url.substr(0, data.url.length - fileName.length - 1);
     let md5path = fileDir;
