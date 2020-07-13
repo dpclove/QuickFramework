@@ -9,7 +9,7 @@ CocosCreator 快速开发轻量级棋牌框架
 以subpackages为基础的大厅+子游戏示例
 提供一个轻量级的棋牌开发框架,让你的开发更加简单
 
-[界面管理器](https://github.com/zhengfasheng/QuickFramework/tree/master/assets/script/framework/base/UIManager.ts)
+[界面管理器](https://github.com/zhengfasheng/QuickFramework/tree/2.3.3/assets/script/framework/base/UIManager.ts)
 --------
 视图全部以预置体方式，通过管理界面进行打开,所有界面都必须继承自界面视图[UIView](https://github.com/zhengfasheng/QuickFramework/tree/master/assets/script/framework/ui/UIView.ts)
 
