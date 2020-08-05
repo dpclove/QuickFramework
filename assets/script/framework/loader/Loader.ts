@@ -411,7 +411,12 @@ class Loader {
                         }
                     } else {
                         //如果有一个没有达成删除，没必要再进行循环处理
-                        break;
+                        //这里需要做个处理，如果资源补别的界面再重复使用，忽略掉这个资源
+                        if ( cacheInfo && cacheInfo.releaseTime == 0 && cacheInfo.refCount > 0 ){
+                            depends.splice(index,1);
+                        }else{
+                            break;
+                        }
                     }
                 }
 
