@@ -1,6 +1,11 @@
 CocosCreator 快速开发轻量级棋牌框架
 ========
 
+仓库转移说明
+---------
+现以仓库转移到https://gitee.com/zheng_fasheng/QuickFramework
+后期更新在新的仓库
+
 项目说明
 --------
 
